@@ -1,8 +1,8 @@
-- Run these commands to start the project (I used Yarn as the package manager):
+- Run these commands to start the project:
 
-    - Download Nodejs and install it
+    - Install Nodejs
     
-    - open command propmt and run these commands:
+    - Run these commands on the cmd:
     
           npm install --save react
         
@@ -10,7 +10,7 @@
         
           yarn add typescript @types/node @types/react @types/react-dom @types/jest
 
-    - go to root folder of the project and then run these command:
+    - Run these commands on the root folder(I used Yarn as the package manager):
     
           yarn install
         
