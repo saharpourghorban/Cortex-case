@@ -4,14 +4,14 @@
     
     - open command propmt and run these commands:
     
-         npm install --save react
+          npm install --save react
         
-         npm install --global yarn
+          npm install --global yarn
         
-         yarn add typescript @types/node @types/react @types/react-dom @types/jest
+          yarn add typescript @types/node @types/react @types/react-dom @types/jest
 
     - go to root folder of the project and then run these command:
     
-         yarn install
+          yarn install
         
-         yarn start
+          yarn start
