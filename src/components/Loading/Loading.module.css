@@ -1,0 +1,3 @@
+.loading {
+  @apply flex justify-center w-full py-24;
+}

@@ -1,0 +1,15 @@
+.loginButton {
+  @apply bg-cyan-700 hover:bg-cyan-300 hover:text-coolGray-700 transition-colors duration-300 p-2 w-24 ml-4 rounded;
+}
+
+.userMenu {
+  @apply relative p-2 flex justify-center items-center text-2xl rounded-full w-12 h-12 bg-cyan-300 text-cyan-800 ml-4 cursor-pointer;
+}
+
+.menu {
+  @apply absolute z-30 top-16 right-0 rounded shadow text-base bg-cyan-300 p-4;
+}
+
+.logout {
+  @apply flex justify-center w-24 whitespace-nowrap bg-red-500 hover:bg-red-700 hover:text-coolGray-200 duration-300 transition-colors px-24 py-2 text-coolGray-300 rounded;
+}

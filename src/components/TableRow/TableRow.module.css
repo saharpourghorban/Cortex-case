@@ -1,0 +1,19 @@
+.tableRow {
+  @apply flex cursor-pointer hover:text-cyan-500 transition-colors duration-300 px-2 sm:px-8;
+}
+
+.tableRow > * {
+  @apply pl-2;
+}
+
+.id {
+  @apply flex w-1/12 border-r;
+}
+
+.name {
+  @apply flex w-3/12 border-r;
+}
+
+.email {
+  @apply flex w-8/12;
+}

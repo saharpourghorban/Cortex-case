@@ -1,0 +1,3 @@
+.main {
+  @apply container flex justify-center mx-auto xl:px-24 px-4;
+}

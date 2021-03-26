@@ -1,0 +1,27 @@
+.card {
+  @apply flex flex-col rounded-l-3xl rounded-br-3xl border border-r-8 hover:text-cyan-500 hover:border-cyan-500 transition-colors duration-300 p-4 pt-6;
+}
+
+.header {
+  @apply flex text-xl cursor-pointer w-max items-center gap-4 mb-2 font-bold;
+}
+
+.header span {
+  @apply truncate;
+}
+
+.body {
+  @apply flex flex-col ml-10;
+}
+
+.date {
+  @apply mb-2;
+}
+
+.tag {
+  @apply text-xs self-end bg-coolGray-600 text-coolGray-300 px-2 py-1 rounded-full rounded-tr-none w-max;
+}
+
+.card:hover .tag {
+  @apply bg-cyan-700 transition-colors duration-300;
+}

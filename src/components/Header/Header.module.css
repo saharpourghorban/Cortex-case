@@ -1,0 +1,23 @@
+.header {
+  @apply flex h-16 md:h-24 mb-16 bg-coolGray-800 md:px-24 px-4;
+}
+
+.title {
+  @apply w-2/12 md:text-4xl flex items-center font-bold whitespace-nowrap cursor-pointer mr-auto;
+}
+
+.nav {
+  @apply flex;
+}
+
+.links {
+  @apply flex items-center gap-4;
+}
+
+.links a {
+  @apply hover:text-cyan-500;
+}
+
+.user {
+  @apply flex items-center;
+}

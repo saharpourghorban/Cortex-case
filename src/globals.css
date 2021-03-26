@@ -1,0 +1,7 @@
+body {
+  @apply font-sans bg-coolGray-700 text-coolGray-300 select-none;
+}
+
+:focus {
+  @apply outline-none !important;
+}

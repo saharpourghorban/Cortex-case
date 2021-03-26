@@ -1,0 +1,15 @@
+.page {
+  @apply fixed inset-0 flex flex-col gap-8 justify-center items-center;
+}
+
+.title {
+  @apply text-5xl;
+}
+
+.link {
+  @apply text-cyan-300 flex items-center gap-2;
+}
+
+.icon {
+  @apply flex justify-center items-center text-xl;
+}

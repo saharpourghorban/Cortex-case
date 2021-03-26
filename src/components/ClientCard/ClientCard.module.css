@@ -1,0 +1,19 @@
+.card {
+  @apply flex flex-col rounded-l-3xl rounded-br-3xl border border-r-8 hover:text-cyan-500 hover:border-cyan-500 transition-colors duration-300;
+}
+
+.logo {
+  @apply relative flex justify-center items-center p-4;
+}
+
+.logo img {
+  @apply object-center cursor-pointer text-8xl h-24;
+}
+
+.info {
+  @apply text-xs bg-coolGray-600 text-coolGray-300 px-2 py-1 rounded-full rounded-tr-none w-max m-4;
+}
+
+.card:hover .info {
+  @apply bg-cyan-700 transition-colors duration-300;
+}

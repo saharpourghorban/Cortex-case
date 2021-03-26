@@ -1,0 +1,11 @@
+.id {
+  @apply flex w-1/12 border-r border-coolGray-700;
+}
+
+.name {
+  @apply flex w-3/12 border-r border-coolGray-700;
+}
+
+.email {
+  @apply flex w-8/12;
+}

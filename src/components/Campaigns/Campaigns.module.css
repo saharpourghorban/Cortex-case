@@ -1,0 +1,7 @@
+.campaigns {
+  @apply flex flex-wrap min-h-screen;
+}
+
+.cardWrapper {
+  @apply xl:w-1/3 md:w-1/2 w-full p-2;
+}

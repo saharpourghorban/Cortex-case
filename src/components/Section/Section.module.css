@@ -1,0 +1,15 @@
+.section {
+  @apply flex flex-col my-8;
+}
+
+.section hr {
+  @apply border-cyan-500 mb-8;
+}
+
+.header {
+  @apply text-5xl text-cyan-500 mb-4 font-bold;
+}
+
+.hint {
+  @apply text-xs text-coolGray-400 mb-2 pl-2;
+}

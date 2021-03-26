@@ -1,0 +1,7 @@
+.client {
+  @apply flex flex-wrap;
+}
+
+.cardWrapper {
+  @apply w-1/2 md:w-1/3 lg:w-1/5 p-2;
+}

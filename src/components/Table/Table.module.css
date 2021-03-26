@@ -1,0 +1,15 @@
+.table {
+  @apply flex flex-col;
+}
+
+.tableHeader tr {
+  @apply flex bg-cyan-500 border-r-8 border-cyan-300 text-coolGray-700 py-4 mb-4 rounded-full rounded-tr-none px-2 sm:px-8;
+}
+
+.tableHeader th {
+  @apply pl-2;
+}
+
+.tableBody {
+  @apply flex flex-col;
+}
